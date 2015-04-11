@@ -13,31 +13,32 @@
 <div id="wrapper" class="hfeed site">
 	<div id="sidebar" class="sidebar">
 		<header id="header" class="site-header" role="banner">
-			<div class="site-branding">
-				<?php
-					if ( is_front_page() ) : ?>
-						<h1 class="site-title">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-								<img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
-							</a>
-						</h1>
-					<?php else : ?>
-						<p class="site-title">
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-								<img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
-							</a>
-						</p>
-					<?php endif;
+			<div class="inner">
+				<div class="site-branding">
+					<?php
+						if ( is_front_page() ) : ?>
+							<h1 class="site-title">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+								</a>
+							</h1>
+						<?php else : ?>
+							<p class="site-title">
+								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+									<img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+								</a>
+							</p>
+						<?php endif;
 
-					$description = get_bloginfo( 'description', 'display' );
-					if ( $description || is_customize_preview() ) : ?>
-						<p class="site-description"><?php echo $description; ?></p>
-					<?php endif;
-				?>
-			</div><!-- .site-branding -->
+						$description = get_bloginfo( 'description', 'display' );
+						if ( $description || is_customize_preview() ) : ?>
+							<p class="site-description"><?php echo $description; ?></p>
+						<?php endif;
+					?>
+				</div><!-- .site-branding -->
+				<?php get_sidebar(); ?>
+			</div>
 		</header><!-- .site-header -->
-
-		<?php get_sidebar(); ?>
 	</div><!-- .sidebar -->
 
 	<div id="content" class="site-content">

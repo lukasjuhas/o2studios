@@ -1,5 +1,27 @@
 @function em($pixels, $context: $font-size-base) {
 	@return #{$pixels/$context}em
+};
+
+@mixin centerer($horizontal: true, $vertical: true) {
+  position: absolute;
+  @if ($horizontal and $vertical) {
+    top: 50%;
+    left: 50%;
+    @include translate(-50%, -50%);
+  } @else if ($horizontal) {
+    left: 50%;
+    @include translate(-50%, 0);
+  } @else if ($vertical) {
+    top: 50%;
+    @include translate(0, -50);
+  }
+}
+
+@mixin translate($x, $y) {
+  -webkit-transform: translate($x, $y);
+      -ms-transform: translate($x, $y); // IE9 only
+       -o-transform: translate($x, $y);
+          transform: translate($x, $y);
 }
 
 @mixin at-least($device-width) {

@@ -12,3 +12,13 @@
 @import "modules/navigation";
 @import "modules/header";
 @import "modules/footer";
+
+body {
+    font-size: 10px;
+	line-height: $line-height-base;
+	font-family: $font-family-base;
+}
+
+#wrapper {
+    background: map-get($ui-colour, brand-dark);
+}

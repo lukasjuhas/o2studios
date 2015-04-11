@@ -1,10 +1,14 @@
-.menu {
-	li {
-	}
-
-	a {
-
-		&:hover {
+#site-navigation {
+	ul {
+		li {
+			display: inline-block;
+			a {
+				width: 100px;
+				padding: 5px;
+				display: block;
+				text-transform: uppercase;
+				text-align:center;
+			}
 		}
 	}
 }

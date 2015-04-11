@@ -1,5 +1,19 @@
 #header {
     width: 100%;
     height: 310px;
-    background: map-get($ui-colour, brand-dark);
+    background: map-get($ui-colour, brand-light);
+    position: relative;
+
+    .inner {
+        @include centerer(true, false);
+    }
+
+    .site-branding {
+        h1 {
+            margin: 0;
+        }
+        .site-description {
+            text-indent: -9999px;
+        }
+    }
 }
