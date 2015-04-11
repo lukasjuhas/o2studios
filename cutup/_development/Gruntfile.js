@@ -13,7 +13,7 @@ module.exports = function(grunt) {
 			},
 			all: [
 				'Gruntfile.js',
-				'scripts/**/*.js',
+				'scripts/*.js',
 				'!scripts/vendor/*.js'
 			]
 		},
@@ -73,15 +73,15 @@ module.exports = function(grunt) {
 				tasks: ['compass']
 			},
 			html: {
-				files: ['*.html'],
+				files: ['../*.html']
 			},
 			svg: {
 				files: ['images/**/*.svg'],
-				tasks: ['svgmin'],
+				tasks: ['svgmin']
 			},
 			img: {
 				files: ['images/**/*.{png,jpg,jpeg,gif}'],
-				tasks: ['imagemin'],
+				tasks: ['imagemin']
 			}
 		}
 	});

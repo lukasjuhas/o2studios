@@ -50,21 +50,21 @@ textarea:focus {
 }
 
 ::-webkit-input-placeholder {
-	color: $brand-color-light;
+	color: map-get($ui-colour, brand-light);
 	opacity: 1;
 }
 
 :-moz-placeholder {
-	color: $brand-color-light;
+	color: map-get($ui-colour, brand-light);
 	opacity: 1;
 }
 
 ::-moz-placeholder {
-	color: $brand-color-light;
+	color: map-get($ui-colour, brand-light);
 	opacity: 1;
 }
 
 :-ms-input-placeholder {
-	color: $brand-color-light;
+	color: map-get($ui-colour, brand-light);
 	opacity: 1;
 }
