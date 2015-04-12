@@ -34,6 +34,8 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 660;
 }
 
+add_filter( 'pre_option_link_manager_enabled', '__return_true' );
+
 if ( ! function_exists( 'twentyfifteen_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -71,7 +73,7 @@ function twentyfifteen_setup() {
 	 * See: https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 	 */
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 825, 510, true );
+	//set_post_thumbnail_size( 825, 510, true );
 
 	// This theme uses wp_nav_menu() in two locations.
 	register_nav_menus( array(
@@ -104,6 +106,9 @@ function twentyfifteen_setup() {
 	// 	'default-color'      => $default_color,
 	// 	'default-attachment' => 'fixed',
 	// ) ) );
+
+	add_image_size( 'thumbnail-medium', 190, 127, true );
+    add_image_size( 'thumbnail-large', 300, 200, true );
 
 	/*
 	 * This theme styles the visual editor to resemble the theme style,
