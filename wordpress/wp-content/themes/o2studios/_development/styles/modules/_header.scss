@@ -1,11 +1,24 @@
 #header {
     width: 100%;
-    height: 310px;
-    background: map-get($ui-colour, brand-light);
+    height: 338px;
+    background-color: map-get($ui-colour, header);
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
     position: relative;
-
+    &:after {
+        content: "";
+        width: 100%;
+        height: 28px;
+        background: map-get($ui-colour, bright-blue);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
     .inner {
         @include centerer(true, false);
+        padding-top: 185px;
     }
 
     .site-branding {

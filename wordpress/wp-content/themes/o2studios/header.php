@@ -16,7 +16,7 @@
 			<div class="inner">
 				<div class="site-branding">
 					<?php
-						if ( is_front_page() ) : ?>
+						if( is_front_page() ) : ?>
 							<h1 class="site-title">
 								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 									<img src="<?php echo bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
