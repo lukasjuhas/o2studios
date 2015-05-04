@@ -1,13 +1,22 @@
 #site-navigation {
 	ul {
+		border-top: 1px solid #D7D7D7;
+		text-align: center;
+
 		li {
 			display: inline-block;
+			border-bottom: 1px solid #D7D7D7;
+
 			a {
 				width: 100px;
 				padding: 5px;
 				display: block;
+				color: #929292;
 				text-transform: uppercase;
 				text-align:center;
+				&:hover {
+					color: #58CBF5;
+				}
 			}
 		}
 	}
