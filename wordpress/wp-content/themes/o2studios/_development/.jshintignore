@@ -1,3 +1,5 @@
 testfixturesdontlint.txt
 node_modules
 scripts/vendor/**/*.js
+wp-content/themes/o2studios/_development/.sass-cache
+wp-content/themes/o2studios/_development/node_modules
