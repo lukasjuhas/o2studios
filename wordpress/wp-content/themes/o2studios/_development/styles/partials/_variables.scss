@@ -1,6 +1,7 @@
 $font-family-base: 		Arial,Helvetica,sans-serif;
 
-$font-size-base: 		12;
+$context:               10;
+$font-size-base: 		10;
 
 $line-height-base: 		1.2;
 
@@ -10,13 +11,15 @@ $ui-colour: (
     brand-light : #E0E0E0,
     header      : #e4e4e4,
     bright-blue : #39d1ff,
-    link        : #000
+    link        : #000,
+    box         : #222,
+    text        : #DADADA,
 );
 
 $headings-font-family:  Arial,Helvetica,sans-serif;
-$headings-font-weight:  bold;
+$headings-font-weight:  normal;
 $headings-line-height:  1.3;
-$headings-color: 		#b60005;
+$headings-color:        #39d1ff;
 
 //$brand-color-light: 	lighten($text-color, 50%);
 

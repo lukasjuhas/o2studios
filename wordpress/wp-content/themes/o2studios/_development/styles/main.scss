@@ -13,12 +13,49 @@
 @import "modules/header";
 @import "modules/footer";
 
+html {
+    height: 100%;
+}
 body {
     font-size: 10px;
 	line-height: $line-height-base;
 	font-family: $font-family-base;
+    height: 100%;
+    color: map-get($ui-colour, text);
 }
 
 #wrapper {
+    min-height: 100%;
+    position: relative;
     background: map-get($ui-colour, brand-dark);
+}
+
+#primary {
+    background: map-get($ui-colour, brand-dark);
+    #main {
+        width: 1108px;
+        margin:0 auto;
+        padding-bottom: 151px;
+        font-size: em(12);
+        line-height: 20px;
+        article {
+            background: map-get($ui-colour, box);
+            padding: 15px;
+            margin-bottom: 20px;
+            width: 100%;
+            .content {
+                float: left;
+                width: 72%;
+                padding-right: 50px;
+            }
+            .featured-image {
+                width: 28%;
+                float: right;
+                text-align: right;
+                .caption {
+                    text-align:center;
+                }
+            }
+        }
+    }
 }
