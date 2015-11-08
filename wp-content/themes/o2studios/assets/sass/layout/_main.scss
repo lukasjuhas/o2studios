@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  background: map-get($ui-colour, brand-dark);
+  padding-bottom: 120px;
+}
+
+.main {
+  padding: 20px 0 0 0;
+  .section {
+    background: map-get($ui-colour, box);
+    margin-bottom: 20px;
+    padding-top: 20px;
+    .feature {
+      .container {
+        padding-right: 0px;
+      }
+      &.feature--right {
+        .container {
+          padding-right: inherit;
+        }
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

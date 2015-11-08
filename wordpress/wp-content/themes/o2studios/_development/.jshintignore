@@ -1,5 +1,0 @@
-testfixturesdontlint.txt
-node_modules
-scripts/vendor/**/*.js
-wordpress/wp-content/themes/o2studios/_development/.sass-cache
-wordpress/wp-content/themes/o2studios/_development/node_modules

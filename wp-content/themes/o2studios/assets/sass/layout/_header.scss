@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  height: 310px;
+  background-color: map-get($ui-colour, header);
+  background-image: url(images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+  border-bottom: 28px solid #39D1FF;
+  .site-branding {
+    text-align: center;
+    padding-top: 130px;
+  }
+  .logo {
+    h1 {
+        margin: 0;
+    }
+  }
+}

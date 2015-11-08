@@ -1,0 +1,631 @@
+# Translation of Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2015-11-01 08:32:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/1.0-alpha-1100\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: output/html/environment.php:238
+msgid "address"
+msgstr "address"
+
+#: output/html/environment.php:104
+msgid "Database"
+msgstr "Database"
+
+#: output/html/environment.php:106
+msgid "Database: %s"
+msgstr "Database: %s"
+
+#: collectors/debug_bar.php:28
+msgid "Debug Bar: %s"
+msgstr "Debug Bar: %s"
+
+#: output/html/languages.php:64
+msgid "Found"
+msgstr "Found"
+
+#: output/html/environment.php:247
+msgid "host"
+msgstr "host"
+
+#: output/html/languages.php:39
+msgid "Language Setting:"
+msgstr "Language Setting:"
+
+#: collectors/languages.php:22 output/html/languages.php:38
+msgid "Languages"
+msgstr "Languages"
+
+#: output/html/languages.php:45
+msgid "Loaded"
+msgstr "Loaded"
+
+#: output/html/languages.php:44
+msgid "MO File"
+msgstr "MO File"
+
+#: output/html/db_queries.php:63
+msgid "No database queries were logged because the %s constant is set to %s"
+msgstr "No database queries were logged because the %s constant is set to %s"
+
+#: output/html/languages.php:69
+msgid "Not Found"
+msgstr "Not Found"
+
+#: output/html/db_queries.php:453
+msgid "Queries - %s"
+msgstr "Queries - %s"
+
+#: output/html/environment.php:224
+msgid "software"
+msgstr "software"
+
+#: output/html/languages.php:42
+msgid "Text Domain"
+msgstr "Text Domain"
+
+#: classes/Util.php:204
+msgid "Unable to determine source of lambda function"
+msgstr "Unable to determine source of lambda function"
+
+#: output/html/environment.php:229
+msgid "version"
+msgstr "version"
+
+#: output/html/transients.php:34
+msgid "Type"
+msgstr "Type"
+
+#: output/html/theme.php:70
+msgid "Body Classes"
+msgstr "Body Classes"
+
+#: output/html/transients.php:37
+msgid "Expiration"
+msgstr "Expiration"
+
+#. Author URI of the plugin/theme
+msgid "https://johnblackbourn.com/"
+msgstr "https://johnblackbourn.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://querymonitor.com/"
+msgstr "https://querymonitor.com/"
+
+#. Author of the plugin/theme
+msgid "John Blackbourn"
+msgstr "John Blackbourn"
+
+#: output/html/request.php:35
+msgid "Matched Query"
+msgstr "Matched Query"
+
+#. Description of the plugin/theme
+msgid "Monitoring of database queries, hooks, conditionals and more."
+msgstr "Monitoring of database queries, hooks, conditionals and more."
+
+#: output/html/request.php:127
+msgid "Multisite"
+msgstr "Multisite"
+
+#: output/html/request.php:104
+msgid "Queried Object"
+msgstr "Queried Object"
+
+#: output/html/request.php:36
+msgid "Query String"
+msgstr "Query String"
+
+#: output/html/request.php:62
+msgid "Query Vars"
+msgstr "Query Vars"
+
+#: output/html/request.php:168
+msgid "Request (+%s)"
+msgstr "Request (+%s)"
+
+#: output/html/theme.php:41
+msgid "Template File"
+msgstr "Template File"
+
+#: output/html/theme.php:101
+msgid "Template: %s"
+msgstr "Template: %s"
+
+#: query-monitor.php:167
+msgid "The symlink at %s is no longer pointing to the correct location. Please remove the symlink, then deactivate and reactivate Query Monitor."
+msgstr "The symlink at %s is no longer pointing to the correct location. Please remove the symlink, then deactivate and reactivate Query Monitor."
+
+#: output/html/transients.php:32
+msgid "Transient Set"
+msgstr "Transient Set"
+
+#: output/html/transients.php:126
+msgid "Transients Set"
+msgstr "Transients Set"
+
+#: output/html/transients.php:127
+msgid "Transients Set (%s)"
+msgstr "Transients Set (%s)"
+
+#: output/html/php_errors.php:39
+msgid "Location"
+msgstr "Location"
+
+#: output/html/hooks.php:45
+msgid "Hook"
+msgstr "Hook"
+
+#: output/html/db_callers.php:52 output/html/db_components.php:53
+#: output/html/db_queries.php:128 output/html/db_queries.php:213
+#: output/html/http.php:50
+msgid "Time"
+msgstr "Time"
+
+#: output/headers/overview.php:37 output/html/overview.php:77
+msgid "%1$s%% of %2$s kB limit"
+msgstr "%1$s%% of %2$s kB limit"
+
+#: output/headers/overview.php:26 output/html/overview.php:60
+msgid "%1$s%% of %2$ss limit"
+msgstr "%1$s%% of %2$ss limit"
+
+#: output/html/assets.php:133
+msgid "%s (missing)"
+msgstr "%s (missing)"
+
+#: output/headers/overview.php:33 output/html/overview.php:72
+msgid "%s kB"
+msgstr "%s kB"
+
+#: output/html/db_queries.php:158
+msgid "%s Queries"
+msgstr "%s Queries"
+
+#: output/html/overview.php:122
+msgctxt "memory usage"
+msgid "%s<small>MB</small>"
+msgstr "%s<small>MB</small>"
+
+#: output/html/db_queries.php:403
+msgctxt "database query number"
+msgid "%s<small>Q</small>"
+msgstr "%s<small>Q</small>"
+
+#: output/html/db_queries.php:399
+msgctxt "database query time"
+msgid "%s<small>S</small>"
+msgstr "%s<small>S</small>"
+
+#: output/html/overview.php:118
+msgctxt "page load time"
+msgid "%s<small>S</small>"
+msgstr "%s<small>S</small>"
+
+#: output/html/http.php:97
+msgctxt "non-blocking HTTP transport"
+msgid "(non-blocking)"
+msgstr "(non-blocking)"
+
+#: output/html/hooks.php:49
+msgid "Actions"
+msgstr "Actions"
+
+#: collectors/admin.php:22
+msgid "Admin Screen"
+msgstr "Admin Screen"
+
+#: output/html/db_queries.php:125
+msgid "Affected Rows"
+msgstr "Affected Rows"
+
+#: output/Html.php:88
+msgctxt "\"All\" option for filters"
+msgid "All"
+msgstr "All"
+
+#: classes/Util.php:199
+msgid "Anonymous function on line %1$d of %2$s"
+msgstr "Anonymous function on line %1$d of %2$s"
+
+#: dispatchers/Html.php:227
+msgid "Authentication"
+msgstr "Authentication"
+
+#: dispatchers/Html.php:80
+msgid "Authentication cookie cleared."
+msgstr "Authentication cookie cleared."
+
+#: dispatchers/Html.php:64
+msgid "Authentication cookie set. You can now view Query Monitor output while logged out or while logged in as a different user."
+msgstr "Authentication cookie set. You can now view Query Monitor output while logged out or while logged in as a different user."
+
+#: collectors/request.php:105
+msgid "Author archive: %s"
+msgstr "Author archive: %s"
+
+#: output/html/assets.php:60
+msgid "Broken Dependencies"
+msgstr "Broken Dependencies"
+
+#: output/html/db_queries.php:85 output/html/http.php:43
+#: output/html/php_errors.php:40 output/html/transients.php:39
+msgid "Call Stack"
+msgstr "Call Stack"
+
+#: output/html/db_callers.php:42
+msgctxt "Query caller"
+msgid "Caller"
+msgstr "Caller"
+
+#: output/html/db_queries.php:118 output/html/db_queries.php:189
+#: output/html/languages.php:43
+msgid "Caller"
+msgstr "Caller"
+
+#: classes/Util.php:122 output/html/theme.php:53
+msgid "Child Theme"
+msgstr "Child Theme"
+
+#: dispatchers/Html.php:247
+msgid "Clear authentication cookie"
+msgstr "Clear authentication cookie"
+
+#: classes/Util.php:173
+msgid "Closure on line %1$d of %2$s"
+msgstr "Closure on line %1$d of %2$s"
+
+#: output/html/admin.php:114
+msgid "Column Action"
+msgstr "Column Action"
+
+#: output/html/admin.php:106
+msgid "Column Filters"
+msgstr "Column Filters"
+
+#: output/html/db_components.php:43
+msgctxt "Query component"
+msgid "Component"
+msgstr "Component"
+
+#: output/html/db_queries.php:86 output/html/db_queries.php:121
+#: output/html/db_queries.php:195 output/html/http.php:44
+#: output/html/php_errors.php:41 output/html/transients.php:40
+msgid "Component"
+msgstr "Component"
+
+#: collectors/conditionals.php:22
+msgid "Conditionals"
+msgstr "Conditionals"
+
+#: classes/Util.php:135
+msgid "Core"
+msgstr "Core"
+
+#: dispatchers/Html.php:73
+msgid "Could not clear authentication cookie."
+msgstr "Could not clear authentication cookie."
+
+#: dispatchers/Html.php:55
+msgid "Could not set authentication cookie."
+msgstr "Could not set authentication cookie."
+
+#: output/html/php_errors.php:38
+msgid "Count"
+msgstr "Count"
+
+#: output/html/db_queries.php:81
+msgid "Database Errors"
+msgstr "Database Errors"
+
+#: output/html/db_queries.php:432
+msgid "Database Errors (%s)"
+msgstr "Database Errors (%s)"
+
+#: collectors/db_queries.php:28 output/html/db_queries.php:57
+msgid "Database Queries"
+msgstr "Database Queries"
+
+#: output/html/overview.php:49
+msgid "Database queries"
+msgstr "Database queries"
+
+#: output/html/overview.php:48
+msgid "Database query time"
+msgstr "Database query time"
+
+#: output/html/assets.php:51
+msgid "Dependencies"
+msgstr "Dependencies"
+
+#: output/html/assets.php:52
+msgid "Dependents"
+msgstr "Dependents"
+
+#: output/html/php_errors.php:50
+msgid "Deprecated"
+msgstr "Deprecated"
+
+#: collectors/environment.php:30
+msgid "Environment"
+msgstr "Environment"
+
+#: collectors/http.php:183 output/html/db_queries.php:87
+msgid "Error"
+msgstr "Error"
+
+#: output/html/hooks.php:132
+msgid "Error: %s"
+msgstr "Error: %s"
+
+#: output/html/db_queries.php:167
+msgid "Extended query information such as the component and affected rows is not available. Query Monitor was unable to symlink its %1$s file into place. <a href=\"%2$s\" target=\"_blank\">See this wiki page for more information.</a>"
+msgstr "Extended query information such as the component and affected rows is not available. Query Monitor was unable to symlink its %1$s file into place. <a href=\"%2$s\" target=\"_blank\">See this wiki page for more information.</a>"
+
+#: output/html/assets.php:62
+msgid "Footer %s"
+msgstr "Footer %s"
+
+#: output/html/assets.php:61
+msgid "Header %s"
+msgstr "Header %s"
+
+#: output/html/environment.php:155
+msgid "Help"
+msgstr "Help"
+
+#: collectors/hooks.php:22
+msgid "Hooks"
+msgstr "Hooks"
+
+#: output/html/http.php:38
+msgid "HTTP Request"
+msgstr "HTTP Request"
+
+#: collectors/http.php:22 output/html/http.php:231
+msgid "HTTP Requests"
+msgstr "HTTP Requests"
+
+#: output/html/http.php:232
+msgid "HTTP Requests (%s)"
+msgstr "HTTP Requests (%s)"
+
+#: output/html/environment.php:136
+msgid "https://www.google.com/search?q=mysql+performance+%s"
+msgstr "https://www.google.com/search?q=mysql+performance+%s"
+
+#: dispatchers/Html.php:155
+msgid "Infinite Scroll has been paused by Query Monitor"
+msgstr "Infinite Scroll has been paused by Query Monitor"
+
+#: output/html/request.php:34
+msgid "Matched Rule"
+msgstr "Matched Rule"
+
+#: output/html/assets.php:59
+msgid "Missing %s"
+msgstr "Missing %s"
+
+#: output/html/http.php:84
+msgid "n/a"
+msgstr "n/a"
+
+#: output/html/assets.php:87 output/html/db_callers.php:103
+#: output/html/db_queries.php:260 output/html/http.php:191
+#: output/html/request.php:50 output/html/request.php:96
+#: output/html/transients.php:72 output/html/transients.php:109
+msgid "none"
+msgstr "none"
+
+#: output/html/php_errors.php:48
+msgid "Notice"
+msgstr "Notice"
+
+#: output/html/environment.php:76
+msgid "Overridden at runtime from %s"
+msgstr "Overridden at runtime from %s"
+
+#: collectors/overview.php:22
+msgid "Overview"
+msgstr "Overview"
+
+#: output/html/overview.php:45
+msgid "Page generation time"
+msgstr "Page generation time"
+
+#: classes/Util.php:128 output/html/theme.php:62
+msgid "Parent Theme"
+msgstr "Parent Theme"
+
+#: output/html/overview.php:46
+msgid "Peak memory usage"
+msgstr "Peak memory usage"
+
+#: output/html/php_errors.php:155
+msgid "PHP Deprecated (%s)"
+msgstr "PHP Deprecated (%s)"
+
+#: output/html/php_errors.php:37
+msgid "PHP Error"
+msgstr "PHP Error"
+
+#: dispatchers/Html.php:154
+msgid "PHP Error in AJAX Response"
+msgstr "PHP Error in AJAX Response"
+
+#: collectors/php_errors.php:36
+msgid "PHP Errors"
+msgstr "PHP Errors"
+
+#: output/html/php_errors.php:137
+msgid "PHP Notices (%s)"
+msgstr "PHP Notices (%s)"
+
+#: output/html/php_errors.php:146
+msgid "PHP Stricts (%s)"
+msgstr "PHP Stricts (%s)"
+
+#: output/html/php_errors.php:128
+msgid "PHP Warnings (%s)"
+msgstr "PHP Warnings (%s)"
+
+#: classes/Util.php:105
+msgid "Plugin: %s"
+msgstr "Plugin: %s"
+
+#: collectors/request.php:120
+msgid "Post type archive: %s"
+msgstr "Post type archive: %s"
+
+#: output/html/db_queries.php:461
+msgid "Queries"
+msgstr "Queries"
+
+#: collectors/db_callers.php:22 output/html/db_callers.php:120
+msgid "Queries by Caller"
+msgstr "Queries by Caller"
+
+#: collectors/db_components.php:22 output/html/db_components.php:120
+msgid "Queries by Component"
+msgstr "Queries by Component"
+
+#: output/html/db_queries.php:238
+msgid "Queries in filter: %s"
+msgstr "Queries in filter: %s"
+
+#: output/html/db_queries.php:84 output/html/db_queries.php:117
+#: output/html/db_queries.php:185
+msgid "Query"
+msgstr "Query"
+
+#. #-#-#-#-#  tmp-query-monitor.pot (Query Monitor 2.8.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: dispatchers/Html.php:92 dispatchers/Html.php:217 dispatchers/Html.php:281
+msgid "Query Monitor"
+msgstr "Query Monitor"
+
+#: collectors/redirects.php:22
+msgid "Redirects"
+msgstr "Redirects"
+
+#: collectors/request.php:22 output/html/request.php:33
+#: output/html/request.php:167
+msgid "Request"
+msgstr "Request"
+
+#: collectors/http.php:135
+msgid "Request not executed due to a filter on pre_http_request"
+msgstr "Request not executed due to a filter on pre_http_request"
+
+#: collectors/http.php:175
+msgid "Request timed out"
+msgstr "Request timed out"
+
+#: output/html/http.php:39
+msgid "Response"
+msgstr "Response"
+
+#: output/html/db_queries.php:207
+msgid "Rows"
+msgstr "Rows"
+
+#: output/html/assets.php:37
+msgid "Scripts"
+msgstr "Scripts"
+
+#: collectors/assets.php:113
+msgid "Scripts & Styles"
+msgstr "Scripts & Styles"
+
+#: output/html/environment.php:218
+msgid "Server"
+msgstr "Server"
+
+#: dispatchers/Html.php:238
+msgid "Set authentication cookie"
+msgstr "Set authentication cookie"
+
+#: collectors/request.php:97
+msgid "Single %s: #%d"
+msgstr "Single %s: #%d"
+
+#: output/html/db_queries.php:111
+msgid "Slow Database Queries (above %ss)"
+msgstr "Slow Database Queries (above %ss)"
+
+#: output/html/db_queries.php:442
+msgid "Slow Queries (%s)"
+msgstr "Slow Queries (%s)"
+
+#: output/html/php_errors.php:49
+msgid "Strict"
+msgstr "Strict"
+
+#: output/html/assets.php:38
+msgid "Styles"
+msgstr "Styles"
+
+#: collectors/request.php:113
+msgid "Term archive: %s"
+msgstr "Term archive: %s"
+
+#: classes/Util.php:124 collectors/theme.php:22 output/html/theme.php:55
+msgid "Theme"
+msgstr "Theme"
+
+#: output/html/http.php:47
+msgid "Timeout"
+msgstr "Timeout"
+
+#: output/html/db_queries.php:248
+msgid "Total Queries: %s"
+msgstr "Total Queries: %s"
+
+#: collectors/transients.php:22
+msgid "Transients"
+msgstr "Transients"
+
+#: output/html/http.php:42
+msgid "Transport"
+msgstr "Transport"
+
+#: classes/Util.php:139 output/html/db_components.php:103
+#: output/html/environment.php:61 output/html/environment.php:124
+#: output/html/environment.php:233 output/html/environment.php:242
+#: output/html/overview.php:68 output/html/php_errors.php:83
+msgid "Unknown"
+msgstr "Unknown"
+
+#: collectors/request.php:127
+msgid "Unknown queried object"
+msgstr "Unknown queried object"
+
+#: output/html/assets.php:53
+msgid "Version"
+msgstr "Version"
+
+#: classes/Util.php:117
+msgid "VIP Plugin: %s"
+msgstr "VIP Plugin: %s"
+
+#: output/html/php_errors.php:47
+msgid "Warning"
+msgstr "Warning"
+
+#: output/html/hooks.php:111
+msgid "Warning: The %s action is extremely resource intensive. Try to avoid using it."
+msgstr "Warning: The %s action is extremely resource intensive. Try to avoid using it."
+
+#: dispatchers/Html.php:235
+msgid "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in."
+msgstr "You can set an authentication cookie which allows you to view Query Monitor output when you&rsquo;re not logged in."
+
+#: dispatchers/Html.php:244
+msgid "You currently have an authentication cookie which allows you to view Query Monitor output."
+msgstr "You currently have an authentication cookie which allows you to view Query Monitor output."

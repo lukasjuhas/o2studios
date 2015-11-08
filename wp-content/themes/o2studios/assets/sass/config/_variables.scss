@@ -1,0 +1,73 @@
+/**
+ * Colours
+ */
+
+$base-colour:            #444;
+$base-background-colour: #fff;
+
+$brand-colour:           #444; // Example
+$success-colour:         #5CB85C;
+$info-colour:            $brand-colour;
+$warning-colour:         #F0AD4E;
+$danger-colour:          #D9534F;
+
+$ui-colour: (
+  brand       : #E0E0E0,
+  brand-two   : #39d1ff,
+  brand-dark  : #2E2E2E,
+  brand-light : #E0E0E0,
+  header      : #e4e4e4,
+  link        : #000,
+  box         : #222,
+  text        : #DADADA,
+  nav         : #929292,
+);
+
+/**
+ * Typography
+ */
+
+$sans-serif-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$serif-font-family:       Georgia, "Times New Roman", Times, serif;
+$base-font-family:        $sans-serif-font-family;
+
+$base-font-size:          16;
+$base-line-height:        1.5;
+$base-spacing-unit:       ($base-font-size * $base-line-height) * 1px;
+
+
+/**
+ * Breakpoints
+ */
+
+$breakpoint-sm: 767px;
+$breakpoint-md: 992px;
+$breakpoint-lg: 1200px;
+
+$breakpoints: (
+    'lg' '(min-width: ' + $breakpoint-lg + ')',
+    'md' '(min-width: ' + $breakpoint-md + ') and (max-width: ' + ($breakpoint-lg - 1) + ')',
+    'sm' '(min-width: ' + ($breakpoint-sm + 1) + ') and (max-width:'  + ($breakpoint-md - 1) + ')',
+    'xs' '(max-width: ' + $breakpoint-sm + ')'
+);
+
+
+/**
+ * Grid
+ */
+
+$grid-max-width: 1200px;
+$grid-columns:   12;
+$grid-gutter:    $base-spacing-unit;
+
+
+/**
+ * Components
+ */
+
+$border-radius: 3px;
+
+$hamburger-height: 24px;
+$hamburger-width: 36px;
+$hamburger-layer-height: 4px;
+$hamburger-translateY: ($hamburger-height - $hamburger-layer-height) / 2;
