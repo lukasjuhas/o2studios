@@ -18,13 +18,13 @@
   height:$hamburger-height;
   position:absolute;
   display: none;
-  top: 22px;
-  right: 25px;
+  top: 45px;
+  right: 30px;
   z-index: 1005;
 
   @include resp-max($breakpoint-md) {
-    display: inline-block;
-    position: fixed;
+    position: absolute;
+    display: block;
   }
 
   [class^="layer"] {
@@ -48,6 +48,7 @@
     }
   }
   &.open {
+    position: fixed;
     [class^="layer"] {
       background: map-get($ui-colour, brand-light);
     }
@@ -93,7 +94,7 @@
     li a {
       display: block;
       text-transform: uppercase;
-      color: map-get($ui-colour, 'nav');
+      color: map-get($ui-colour, nav);
     }
 
     a {
@@ -103,7 +104,7 @@
 
       &:hover, &:focus {
         text-decoration: none;
-        color: map-get($ui-colour, 'brand-two');
+        color: map-get($ui-colour, brand-two);
 
         &:before {
           visibility: visible;
@@ -133,10 +134,21 @@
       visibility: visible;
       width: 100%;
 
+      ul {
+        border: 0;
+      }
+
       .menu li {
         animation: mobileMenuFade 400ms ease forwards;
         animation-delay: 250ms;
         padding: 0;
+        width: 100%;
+        border: 0;
+
+        a {
+          border: 0;
+          color: map-get($ui-colour, brand-light);
+        }
       }
     }
 

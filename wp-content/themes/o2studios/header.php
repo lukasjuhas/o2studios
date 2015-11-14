@@ -20,6 +20,7 @@
       <div class="wrapper">
         <header class="header" role="banner">
             <div class="container">
+                <div class="header__graphic"></div>
                 <div class="site-branding">
     								<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo">
     						        <?php if( is_front_page() ) : ?><h1><?php endif; ?>
@@ -27,6 +28,22 @@
 					               <?php if( is_front_page() ) : ?></h1><?php endif; ?>
 				             </a>
                  </div>
+
+                 <div class="mobile-links">
+                     <?php if ( is_active_sidebar( 'header_widget_area' ) ) : ?>
+                        <div class="social">
+                            <?php dynamic_sidebar( 'header_widget_area' ); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <div class="languages">
+                        <ul>
+                            <li><a href="<?php bloginfo('url'); ?>/deutsch/" class="de">Deutsch</a></li>
+                            <li><a href="<?php bloginfo('url'); ?>" class="en">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+
                  <a class="menu-toggle" href="#">
                     <span class="layer-top"></span>
                     <span class="layer-middle"></span>

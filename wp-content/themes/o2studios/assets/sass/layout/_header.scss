@@ -1,19 +1,168 @@
 .header {
   width: 100%;
   height: 310px;
-  background-color: map-get($ui-colour, header);
-  background-image: url(images/header-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
+  background: map-get($ui-colour, header-lighter);
+  background: linear-gradient(
+    to right,
+    map-get($ui-colour, header) 0%,
+    map-get($ui-colour, header-lighter) 50%,
+    map-get($ui-colour, header) 100%);
   position: relative;
-  border-bottom: 28px solid #39D1FF;
+  border-bottom: 10px solid map-get($ui-colour, brand-two);
+  .container {
+    position: relative;
+    height: 100%;
+  }
+  .header__graphic {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 154px;
+    height: 260px;
+    background-image: url('images/header-graphic.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 154px 260px;
+    @media only screen and (min--moz-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-device-pixel-ratio: 2) {
+      background-image: url('images/header-graphic-2x.png');
+    }
+  }
   .site-branding {
     text-align: center;
     padding-top: 130px;
   }
   .logo {
+    position: relative;
+    z-index: 50;
     h1 {
         margin: 0;
+        font-size: 0px;
+    }
+  }
+  @include resp-max($breakpoint-md) {
+    height: 120px;
+    border-bottom: 5px solid map-get($ui-colour, brand-two);
+    .header__graphic {
+      display: none;
+    }
+    .site-branding {
+      padding: 40px 70px 0px 0px;
+    }
+  }
+}
+
+.social {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  h5 {
+    display: none;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 3px;
+      a {
+        width: 25px;
+        height: 25px;
+        display: block;
+        border-radius: $border-radius;
+        text-indent: -9999px;
+        background-color: map-get($ui-colour, nav);
+        background-repeat: no-repeat;
+        background-position: center center;
+        &[href*="twitter"] {
+          background-image: url(images/icon-twitter-white.png);
+          background-image: linear-gradient(transparent, transparent), url(images/icon-twitter-white.svg);
+          &:hover {
+            background-color: #55acee;
+          }
+        }
+        &[href*="facebook"] {
+          background-image: url(images/icon-facebook-white.png);
+          background-image: linear-gradient(transparent, transparent), url(images/icon-facebook-white.svg);
+          &:hover {
+            background-color: #3b5998;
+          }
+        }
+        &[href*="linkedin"] {
+          background-image: url(images/icon-linkedin-white.png);
+          background-image: linear-gradient(transparent, transparent), url(images/icon-linkedin-white.svg);
+          &:hover {
+            background-color: #4875B4;
+          }
+        }
+      }
+    }
+  }
+  @include resp-max($breakpoint-md) {
+    display: none;
+  }
+}
+
+.languages {
+  position: absolute;
+  right: 20px;
+  top: 65px;
+  ul {
+    list-style: none;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 3px;
+      a {
+        width: 23px;
+        height: 15px;
+        display: block;
+        text-indent: -9999px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        &.en {
+          background-image: url(images/icon-en.png);
+        }
+        &.de {
+          background-image: url(images/icon-de.png);
+        }
+      }
+    }
+  }
+  @include resp-max($breakpoint-md) {
+    display: none;
+  }
+}
+
+.mobile-links {
+  @include resp-max($breakpoint-md) {
+    display: none;
+    position: absolute;
+    position: absolute;
+    left: 0px;
+    z-index: 1000;
+    top: 0px;
+    width: 100%;
+    .social {
+      left: 20px;
+      right: inherit;
+      position: fixed;
+    }
+    .languages {
+      left: 20px;
+      right: inherit;
+      position: fixed;
+    }
+    &.open {
+      display: block;
+      .social {
+        display: block;
+      }
+      .languages {
+        display: block;
+      }
     }
   }
 }

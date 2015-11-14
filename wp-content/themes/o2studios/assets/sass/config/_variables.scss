@@ -12,15 +12,17 @@ $warning-colour:         #F0AD4E;
 $danger-colour:          #D9534F;
 
 $ui-colour: (
-  brand       : #E0E0E0,
-  brand-two   : #39d1ff,
-  brand-dark  : #2E2E2E,
-  brand-light : #E0E0E0,
-  header      : #e4e4e4,
-  link        : #000,
-  box         : #222,
-  text        : #DADADA,
-  nav         : #929292,
+  brand         : #E0E0E0,
+  brand-two     : #39d1ff,
+  brand-dark    : #2E2E2E,
+  brand-light   : #E0E0E0,
+  header        : #e4e4e4,
+  header-lighter: #fefefe,
+  link          : #000,
+  box           : #222,
+  text          : #DADADA,
+  text-light    : #FFF,
+  nav           : #929292,
 );
 
 /**
@@ -31,7 +33,7 @@ $sans-serif-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $serif-font-family:       Georgia, "Times New Roman", Times, serif;
 $base-font-family:        $sans-serif-font-family;
 
-$base-font-size:          16;
+$base-font-size:          14;
 $base-line-height:        1.5;
 $base-spacing-unit:       ($base-font-size * $base-line-height) * 1px;
 
